@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
-import Link from "next/link";
 import { notFound } from "next/navigation";
-import { Download } from "lucide-react";
 import { Breadcrumbs } from "@/components/breadcrumbs";
 import { ButtonLink } from "@/components/button";
 import { ProductCard } from "@/components/product-card";
@@ -52,11 +50,8 @@ export default function ProductDetailPage({ params }: { params: { slug: string }
           <p className="text-sm font-bold uppercase tracking-[0.18em] text-[var(--sea)]">{product.category}</p>
           <h1 className="mt-3 text-4xl font-black tracking-tight">{product.name}</h1>
           <p className="mt-5 text-lg leading-8 text-[var(--muted)]">{product.summary}</p>
-          <div className="mt-8 grid gap-3 sm:grid-cols-2">
+          <div className="mt-8">
             <ButtonLink href={`/rfq?product=${product.slug}`}>Send Inquiry</ButtonLink>
-            <Link href="/catalog/hassan-global-exports-catalog.pdf" className="focus-ring inline-flex min-h-12 items-center justify-center gap-2 rounded-md border border-black/10 px-5 py-3 text-sm font-bold transition hover:bg-slate-100">
-              <Download size={17} /> Download PDF
-            </Link>
           </div>
           <div className="mt-8 rounded-md bg-[#f3f0e9] p-4">
             <h2 className="font-black">Export packaging</h2>
@@ -90,18 +85,18 @@ export default function ProductDetailPage({ params }: { params: { slug: string }
           <div>
             <p className="text-sm font-bold uppercase tracking-[0.18em] text-[var(--gold)]">Inquiry form</p>
             <h2 className="mt-3 text-3xl font-black">Request pricing for {product.name}</h2>
-            <p className="mt-4 text-white/68">Share quantity, destination port, required certifications and packaging preferences.</p>
+            <p className="mt-4 text-white/68">Share mesh opening, material, roll size, destination port and packing preferences.</p>
           </div>
           <form className="grid gap-3">
             <input className="rounded-md border border-white/15 bg-white/10 px-4 py-3 outline-none placeholder:text-white/45" placeholder="Company email" />
-            <textarea className="min-h-28 rounded-md border border-white/15 bg-white/10 px-4 py-3 outline-none placeholder:text-white/45" placeholder="Requirement details" />
+            <textarea className="min-h-28 rounded-md border border-white/15 bg-white/10 px-4 py-3 outline-none placeholder:text-white/45" placeholder="Filter net requirement details" />
             <ButtonLink href="/rfq" variant="secondary">Open Full RFQ</ButtonLink>
           </form>
         </div>
       </section>
 
       <section className="py-16">
-        <SectionHeading title="Related products" eyebrow="Continue exploring" />
+        <SectionHeading title="Related filter net products" eyebrow="Continue exploring" />
         <div className="mt-8 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
           {related.map((item) => <ProductCard key={item.slug} product={item} />)}
         </div>
@@ -115,7 +110,7 @@ function InfoList({ title, items }: { title: string; items: string[] }) {
     <div className="rounded-md border border-black/10 bg-white p-6">
       <h2 className="text-xl font-black">{title}</h2>
       <ul className="mt-4 grid gap-3 text-sm font-semibold text-slate-700">
-        {items.map((item) => <li key={item}>• {item}</li>)}
+        {items.map((item) => <li key={item}>- {item}</li>)}
       </ul>
     </div>
   );

@@ -1,12 +1,11 @@
 export const siteConfig = {
-  name: "Hassan Global Exports",
-  tagline: "Industrial supply, export precision, global confidence.",
-  url: "https://www.hassanglobalexports.example",
-  email: "sales@hassanglobalexports.example",
+  name: "A & M Industries",
+  tagline: "Precision filter net manufacturing for global buyers.",
+  url: "https://www.amindustries.example",
+  email: "sales@amindustries.example",
   phone: "+880 1700 000 000",
   whatsapp: "+8801700000000",
   address: "House 12, Export Avenue, Dhaka 1212, Bangladesh",
-  catalogUrl: "/catalog/hassan-global-exports-catalog.pdf",
   locales: ["en", "ar", "fr", "es"],
   currencies: ["USD", "EUR", "GBP", "AED"]
 };

@@ -3,7 +3,7 @@ import { PageHero } from "@/components/page-hero";
 import { SimpleGrid } from "@/components/content-blocks";
 import { industries } from "@/lib/data";
 
-export const metadata: Metadata = { title: "Industries Served", description: "Industries served by Hassan Global Exports including fisheries, construction, agriculture and industrial distribution." };
+export const metadata: Metadata = { title: "Industries Served", description: "Industries served by A & M Industries including industrial filtration, food processing, agriculture, liquid filtration and OEM filter media." };
 
 export default function IndustriesPage() {
   return (

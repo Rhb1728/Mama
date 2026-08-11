@@ -21,7 +21,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
       <article className="container-x max-w-3xl py-16">
         <p className="text-lg leading-9 text-[var(--muted)]">This SEO-ready dummy article introduces the topic for global buyers. Replace this section with practical guidance, market updates, product specification notes, shipment documentation tips and internal company news.</p>
         <h2 className="mt-10 text-3xl font-black">Key buyer considerations</h2>
-        <p className="mt-4 leading-8 text-[var(--muted)]">Strong export sourcing depends on clear specifications, realistic lead times, verified packing requirements and accurate paperwork. Hassan Global Exports keeps these points visible throughout the quotation and shipment process.</p>
+        <p className="mt-4 leading-8 text-[var(--muted)]">Strong export sourcing depends on clear specifications, realistic lead times, verified packing requirements and accurate paperwork. A & M Industries keeps these points visible throughout the quotation and shipment process.</p>
       </article>
     </main>
   );

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { PageHero } from "@/components/page-hero";
 
-export const metadata: Metadata = { title: "Privacy Policy", description: "Privacy policy for Hassan Global Exports." };
+export const metadata: Metadata = { title: "Privacy Policy", description: "Privacy policy for A & M Industries." };
 
 export default function PrivacyPage() {
   return (

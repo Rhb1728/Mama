@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { PageHero } from "@/components/page-hero";
 
-export const metadata: Metadata = { title: "Terms & Conditions", description: "Terms and conditions for Hassan Global Exports." };
+export const metadata: Metadata = { title: "Terms & Conditions", description: "Terms and conditions for A & M Industries." };
 
 export default function TermsPage() {
   return (

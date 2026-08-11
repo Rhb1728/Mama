@@ -4,7 +4,7 @@ import { RfqForm } from "@/components/rfq-form";
 
 export const metadata: Metadata = {
   title: "Request Quotation",
-  description: "Send an RFQ for export-ready fishing nets, steel products, PPGI coils, wire mesh and industrial materials."
+  description: "Send an RFQ for export-ready filter net with mesh opening, material, GSM, roll size, packing and destination details."
 };
 
 export default function RfqPage() {

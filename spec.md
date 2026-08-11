@@ -1,15 +1,15 @@
-# Hassan Global Exports Website Technical Specification
+# A & M Industries Website Technical Specification
 
 ## 1. Project Overview
 
-This project is a premium, export-focused B2B corporate website for **Hassan Global Exports**, a manufacturing and trading company serving global buyers and importers. The frontend is built as a production-ready, static-first Next.js application with scalable product data, SEO routes, reusable UI components, animated sections, and buyer-trust conversion flows.
+This project is a premium, export-focused B2B corporate website for **A & M Industries**, a focused filter net manufacturing company serving global buyers and importers. The frontend is built as a production-ready, static-first Next.js application with scalable product data, SEO routes, reusable UI components, animated sections, and buyer-trust conversion flows.
 
 Primary goals:
 
-- Present the company as a credible international exporter.
-- Support industrial and consumer product categories.
+- Present the company as a credible international filter net manufacturer and exporter.
+- Position filter net manufacturing as the sole product focus while preserving a scalable structure for future filter net variants.
 - Make future product/category expansion straightforward.
-- Provide strong buyer conversion paths through RFQ, inquiry, contact, and catalog download CTAs.
+- Provide strong buyer conversion paths through RFQ, inquiry and contact CTAs.
 - Keep architecture CMS-ready and multilingual/currency-ready.
 
 ## 2. Technology Stack
@@ -256,7 +256,7 @@ Displays:
 - Category badge
 - Product summary
 - Specification preview
-- Brochure CTA
+- Inquiry CTA
 - Inquiry CTA
 
 `src/components/product-filter.tsx`
@@ -306,7 +306,6 @@ Sections:
 - Certifications and testimonials carousel
 - Industries served
 - Latest blog/news
-- Catalog download CTA
 - RFQ CTA band
 
 ### Products
@@ -344,7 +343,7 @@ Features:
 - Certifications
 - Inquiry panel
 - Related products
-- PDF/catalog download CTA
+- RFQ inquiry CTA
 
 ### RFQ
 
@@ -581,10 +580,9 @@ Important production edits:
 - Replace dummy contact information in `src/lib/site.ts`.
 - Replace placeholder domain in `siteConfig.url`.
 - Replace dummy product images with real factory/product images.
-- Replace catalog placeholder URL with a real PDF asset.
 - Connect forms to backend.
 - Add real privacy policy and terms.
-- Review all product specifications before publishing.
+- Review all filter net and industrial product specifications before publishing.
 
 ## 17. GitHub Upload Instructions
 

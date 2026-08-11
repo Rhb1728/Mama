@@ -11,14 +11,14 @@ const manrope = Manrope({ variable: "--font-manrope", subsets: ["latin"], displa
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
-    default: `${siteConfig.name} | Premium Global Export Company`,
+    default: `${siteConfig.name} | Premium Filter Net Manufacturer`,
     template: `%s | ${siteConfig.name}`
   },
-  description: "Hassan Global Exports supplies fishing nets, PPGI coils, steel products, wire mesh, industrial materials and packaging to global B2B buyers.",
-  keywords: ["global export company", "fishing net exporter", "PPGI coils supplier", "industrial products exporter", "Bangladesh trading company"],
+  description: "A & M Industries manufactures export-ready filter nets for global B2B buyers, distributors and industrial users.",
+  keywords: ["filter net manufacturer", "filter net exporter", "industrial filter mesh supplier", "industrial products exporter", "Bangladesh manufacturing company"],
   openGraph: {
-    title: `${siteConfig.name} | Premium Global Export Company`,
-    description: "Export-focused manufacturing and trading partner for global importers and industrial distributors.",
+    title: `${siteConfig.name} | Premium Filter Net Manufacturer`,
+    description: "Focused filter net manufacturing partner for global importers and industrial distributors.",
     url: siteConfig.url,
     siteName: siteConfig.name,
     images: [
@@ -34,8 +34,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: `${siteConfig.name} | Premium Global Export Company`,
-    description: "Premium B2B exporter for industrial and consumer products."
+    title: `${siteConfig.name} | Premium Filter Net Manufacturer`,
+    description: "Premium B2B filter net manufacturer for global importers and distributors."
   },
   alternates: {
     canonical: siteConfig.url

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { Download, Send } from "lucide-react";
+import { Send } from "lucide-react";
 import { Product } from "@/lib/data";
 
 export function ProductCard({ product }: { product: Product }) {
@@ -29,12 +29,9 @@ export function ProductCard({ product }: { product: Product }) {
             </div>
           ))}
         </dl>
-        <div className="mt-6 grid grid-cols-2 gap-3">
-          <a href="/catalog/hassan-global-exports-catalog.pdf" className="focus-ring inline-flex items-center justify-center gap-2 rounded-md border border-black/10 px-3 py-3 text-sm font-bold transition hover:bg-slate-100">
-            <Download size={16} /> Brochure
-          </a>
-          <Link href={`/rfq?product=${product.slug}`} className="focus-ring inline-flex items-center justify-center gap-2 rounded-md bg-[var(--ink)] px-3 py-3 text-sm font-bold text-white transition hover:bg-[var(--steel)]">
-            <Send size={16} /> Inquiry
+        <div className="mt-6">
+          <Link href={`/rfq?product=${product.slug}`} className="focus-ring inline-flex w-full items-center justify-center gap-2 rounded-md bg-[var(--ink)] px-3 py-3 text-sm font-bold text-white transition hover:bg-[var(--steel)]">
+            <Send size={16} /> Send Inquiry
           </Link>
         </div>
       </div>

@@ -1,13 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
-import { Award, CheckCircle2, Download, Globe2, Ship, ShieldCheck } from "lucide-react";
+import { Award, CheckCircle2, Globe2, Ship, ShieldCheck } from "lucide-react";
 import { ButtonLink } from "@/components/button";
 import { Counter, MotionDiv, Reveal } from "@/components/motion";
 import { ProductCard } from "@/components/product-card";
 import { SectionHeading } from "@/components/section-heading";
 import { Testimonials } from "@/components/testimonials";
 import { certifications, industries, markets, posts, products, stats, strengths } from "@/lib/data";
-import { siteConfig } from "@/lib/site";
 
 export default function Home() {
   return (
@@ -27,13 +26,13 @@ export default function Home() {
         <div className="container-x relative grid min-h-[calc(100svh-80px)] items-center gap-10 py-20 lg:grid-cols-[1.05fr_0.95fr]">
           <Reveal>
             <p className="mb-5 inline-flex rounded-md border border-white/15 bg-white/10 px-4 py-2 text-sm font-bold uppercase tracking-[0.18em] text-white/80">
-              Premium B2B Export Partner
+              Premium Filter Net Manufacturer
             </p>
             <h1 className="max-w-4xl text-5xl font-black leading-[1.02] tracking-tight sm:text-6xl lg:text-7xl">
-              Hassan Global Exports
+              A & M Industries
             </h1>
             <p className="mt-7 max-w-2xl text-lg leading-8 text-white/75 sm:text-xl">
-              Industrial and consumer product exports with factory-vetted supply, rigorous quality control and reliable container logistics for serious global buyers.
+              Precision filter net manufacturing with controlled mesh specifications, export-grade packing and reliable container logistics for global buyers.
             </p>
             <div className="mt-9 flex flex-wrap gap-3">
               <ButtonLink href="/rfq" variant="secondary">Request Quotation</ButtonLink>
@@ -49,10 +48,10 @@ export default function Home() {
             className="rounded-md border border-white/12 bg-white/10 p-5 backdrop-blur-md"
           >
             <div className="grid gap-4">
-              {["Fishing Nets", "PPGI Coils", "Steel Products", "Wire Mesh"].map((item, index) => (
+              {["Industrial Filter Net", "Agricultural Filter Net", "Nylon Filter Mesh", "Custom Filter Net Rolls"].map((item, index) => (
                 <div key={item} className="flex items-center justify-between rounded-md bg-white/10 p-4">
                   <span className="font-bold">{item}</span>
-                  <span className="text-sm text-white/58">Export line 0{index + 1}</span>
+                  <span className="text-sm text-white/58">Filter line 0{index + 1}</span>
                 </div>
               ))}
             </div>
@@ -78,7 +77,7 @@ export default function Home() {
 
       <section className="container-x py-20">
         <Reveal>
-          <SectionHeading eyebrow="Why buyers choose us" title="Built for importers who need clarity before the container moves." text="From product matching to export paperwork, every workflow is designed to reduce uncertainty for international purchasing teams." />
+          <SectionHeading eyebrow="Why buyers choose us" title="Built for importers who need clarity before the container moves." text="From mesh specification review to export packing, every workflow is designed to reduce uncertainty for international filter net buyers." />
         </Reveal>
         <div className="mt-10 grid gap-5 md:grid-cols-2 xl:grid-cols-4">
           {strengths.map((item, index) => (
@@ -96,7 +95,7 @@ export default function Home() {
       <section className="bg-[#eef2f2] py-20">
         <div className="container-x">
           <div className="flex flex-col gap-5 md:flex-row md:items-end md:justify-between">
-            <SectionHeading eyebrow="Featured products" title="Export-ready product categories." text="A scalable catalog structure for adding new products, specifications and downloadable buyer assets." />
+            <SectionHeading eyebrow="Filter net products" title="Export-ready filter net solutions." text="Focused product lines for industrial filtration, agricultural processing, nylon mesh and custom roll programs." />
             <ButtonLink href="/products" variant="ghost">View All Products</ButtonLink>
           </div>
           <div className="mt-10 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
@@ -107,7 +106,7 @@ export default function Home() {
 
       <section className="container-x grid gap-10 py-20 lg:grid-cols-[0.9fr_1.1fr]">
         <Reveal>
-          <SectionHeading eyebrow="Global export markets" title="Coordinated shipments for buyers across key import regions." text="Dummy market coverage content is structured for future CMS editing, distributor pages and localized landing pages." />
+          <SectionHeading eyebrow="Global export markets" title="Coordinated shipments for buyers across key import regions." text="Market coverage content is structured for importer confidence, distributor programs and destination-specific RFQ follow-up." />
           <div className="mt-8 flex flex-wrap gap-2">
             {markets.map((market) => <span key={market} className="rounded-md border border-black/10 bg-white px-4 py-2 text-sm font-bold">{market}</span>)}
           </div>
@@ -116,8 +115,8 @@ export default function Home() {
           <div className="relative min-h-[360px] overflow-hidden rounded-md bg-[#101418] p-6 text-white card-shadow">
             <Image src="https://images.unsplash.com/photo-1524661135-423995f22d0b?auto=format&fit=crop&w=1400&q=80" alt="Global shipping map and logistics" fill sizes="(max-width: 1024px) 100vw, 50vw" className="object-cover opacity-45" />
             <div className="relative z-10 grid h-full content-end">
-              <p className="text-sm font-bold uppercase tracking-[0.18em] text-white/65">FOB · CFR · CIF · Consolidated Loads</p>
-              <h3 className="mt-4 text-3xl font-black">Global shipping documentation, container planning and buyer updates.</h3>
+              <p className="text-sm font-bold uppercase tracking-[0.18em] text-white/65">FOB / CFR / CIF / Roll Packing</p>
+              <h3 className="mt-4 text-3xl font-black">Filter net roll packing, container planning and buyer-ready export documentation.</h3>
             </div>
           </div>
         </Reveal>
@@ -139,7 +138,7 @@ export default function Home() {
       </section>
 
       <section className="container-x py-20">
-        <SectionHeading eyebrow="Industries served" title="Commercial supply for diverse global buyers." align="center" />
+        <SectionHeading eyebrow="Industries served" title="Filter net supply for demanding industrial buyers." align="center" />
         <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {industries.map((industry) => (
             <Link key={industry} href="/industries" className="rounded-md border border-black/10 bg-white p-5 text-base font-black transition hover:-translate-y-1 hover:shadow-xl">
@@ -152,10 +151,7 @@ export default function Home() {
       <section className="bg-white py-20">
         <div className="container-x grid gap-10 lg:grid-cols-[0.95fr_1.05fr]">
           <div>
-            <SectionHeading eyebrow="Latest insights" title="Export intelligence for importers and distributors." />
-            <a href={siteConfig.catalogUrl} className="focus-ring mt-8 inline-flex items-center gap-2 rounded-md bg-[var(--ink)] px-5 py-3 text-sm font-bold text-white">
-              <Download size={17} /> Download Company Catalog
-            </a>
+            <SectionHeading eyebrow="Latest insights" title="Filter net intelligence for importers and distributors." />
           </div>
           <div className="grid gap-4">
             {posts.map((post) => (
@@ -174,10 +170,10 @@ export default function Home() {
           <div className="grid gap-8 md:grid-cols-[1fr_auto] md:items-center">
             <div>
               <Award size={36} />
-              <h2 className="mt-5 text-3xl font-black">Ready to source export-grade products?</h2>
-              <p className="mt-3 max-w-2xl text-white/78">Send product requirements, target destination and packaging needs. The dummy form is ready for CRM integration.</p>
+              <h2 className="mt-5 text-3xl font-black">Ready to source export-grade filter net?</h2>
+              <p className="mt-3 max-w-2xl text-white/78">Send mesh opening, material, roll size, target destination and packing needs. The RFQ flow is ready for client handoff.</p>
             </div>
-            <ButtonLink href="/rfq" variant="secondary">Start RFQ</ButtonLink>
+            <ButtonLink href="/rfq" variant="secondary">Request Filter Net Quote</ButtonLink>
           </div>
         </div>
       </section>

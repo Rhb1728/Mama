@@ -16,127 +16,98 @@ export type Product = {
 
 export const products: Product[] = [
   {
-    slug: "hdpe-fishing-nets",
-    name: "HDPE Fishing Nets",
-    category: "Fishing Nets",
-    summary: "UV-stabilized knotless and knotted nets engineered for commercial fisheries and aquaculture buyers.",
+    slug: "industrial-filter-net",
+    name: "Industrial Filter Net",
+    category: "Filter Net",
+    summary: "Precision-manufactured filter net for filtration, grading, separation and processing lines.",
     image: "https://images.unsplash.com/photo-1742728572985-295db745a9d1?auto=format&fit=crop&w=1200&q=80",
     gallery: [
       "https://images.unsplash.com/photo-1742728572985-295db745a9d1?auto=format&fit=crop&w=1200&q=80",
       "https://images.unsplash.com/photo-1770767696821-0e485dbde5b8?auto=format&fit=crop&w=1200&q=80",
       "https://images.unsplash.com/photo-1748946469857-60142faa03b4?auto=format&fit=crop&w=1200&q=80"
     ],
-    specs: { Material: "HDPE monofilament / multifilament", "Mesh Size": "10 mm - 300 mm", Denier: "210D - 9000D", Color: "Green, blue, white, custom", Treatment: "UV stabilized" },
-    applications: ["Marine fishing", "Aquaculture cages", "Pond harvesting", "Safety and barrier netting"],
+    specs: { Material: "HDPE / PP / nylon monofilament", "Mesh Opening": "Custom micron and mesh ranges", GSM: "Buyer-specific weight and density", "Roll Width": "Custom roll width and length", Treatment: "UV stabilized / buyer-specific finish" },
+    applications: ["Industrial filtration", "Processing and separation lines", "Liquid and air filtration support", "General manufacturing use"],
     certifications: ["ISO 9001", "Export inspection", "Material test report"],
-    packaging: "Pressed bales, woven sacks, buyer label and palletization on request.",
-    loading: "Approx. 8-12 MT per 20 ft container depending on denier and bale density."
+    packaging: "Rolls, bales or cartons with buyer labels, moisture protection and palletization on request.",
+    loading: "Container loading optimized by roll width, GSM, mesh opening and packing format."
   },
   {
-    slug: "ppgi-coils",
-    name: "PPGI Coils",
-    category: "PPGI Coils",
-    summary: "Pre-painted galvanized steel coils for roofing, appliance, cladding and building material importers.",
-    image: "https://plus.unsplash.com/premium_photo-1682144870559-703a20a23bd4?auto=format&fit=crop&w=1200&q=80",
+    slug: "agricultural-filter-net",
+    name: "Agricultural Filter Net",
+    category: "Filter Net",
+    summary: "Durable filter net for agricultural grading, crop processing, washing lines and bulk handling operations.",
+    image: "https://images.unsplash.com/photo-1516253593875-bd7ba052fbc5?auto=format&fit=crop&w=1200&q=80",
     gallery: [
-      "https://plus.unsplash.com/premium_photo-1682144870559-703a20a23bd4?auto=format&fit=crop&w=1200&q=80",
-      "https://plus.unsplash.com/premium_photo-1682144867572-3537cc9974e1?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1516253593875-bd7ba052fbc5?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1500937386664-56d1dfef3854?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1464226184884-fa280b87c399?auto=format&fit=crop&w=1200&q=80"
     ],
-    specs: { Thickness: "0.12 mm - 1.20 mm", Width: "600 mm - 1250 mm", Coating: "Z40 - Z275", Paint: "PE, SMP, HDP, PVDF", "Coil ID": "508 mm / 610 mm" },
-    applications: ["Roofing sheets", "Sandwich panels", "Home appliances", "Industrial cladding"],
-    certifications: ["ISO 9001", "SGS optional", "Mill test certificate"],
-    packaging: "Sea-worthy metal packaging with edge protection, moisture barrier and eye-to-sky loading.",
-    loading: "20-25 MT per 20 ft container based on destination regulation."
+    specs: { Material: "HDPE / PP", "Mesh Opening": "Fine to medium filtration ranges", Format: "Rolls / cut sheets", Color: "White, green, black, custom", Finish: "Food-processing compatible options on request" },
+    applications: ["Seed and grain grading", "Crop washing lines", "Agricultural processing", "Sorting and drying support"],
+    certifications: ["Material declaration", "Pre-shipment inspection", "Buyer-specific compliance files"],
+    packaging: "Export rolls with protective wrapping, carton packing or palletized loads.",
+    loading: "Mixed-width roll loading plans prepared against buyer order specifications."
   },
   {
-    slug: "galvanized-steel-products",
-    name: "Galvanized Steel Products",
-    category: "Steel Products",
-    summary: "Flat and long steel products sourced through audited mills with reliable export documentation.",
-    image: "https://images.unsplash.com/photo-1748946469857-60142faa03b4?auto=format&fit=crop&w=1200&q=80",
-    gallery: [
-      "https://images.unsplash.com/photo-1748946469857-60142faa03b4?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?auto=format&fit=crop&w=1200&q=80"
-    ],
-    specs: { Grade: "Commercial / structural grades", Finish: "Galvanized, black, pickled", Standard: "ASTM, JIS, EN", MOQ: "1 x 20 ft container" },
-    applications: ["Construction", "Fabrication", "Infrastructure", "Light engineering"],
-    certifications: ["Mill certificate", "Third-party inspection", "ISO supplier audit"],
-    packaging: "Bundled, strapped and protected for ocean freight.",
-    loading: "Container loading plan prepared per product dimension and port rules."
-  },
-  {
-    slug: "welded-wire-mesh",
-    name: "Welded Wire Mesh",
-    category: "Wire Mesh",
-    summary: "Precision welded mesh panels and rolls for construction, fencing, agriculture and industrial users.",
+    slug: "nylon-filter-mesh",
+    name: "Nylon Filter Mesh",
+    category: "Filter Net",
+    summary: "Fine nylon filter mesh designed for consistent openings, smooth handling and repeat industrial use.",
     image: "https://images.unsplash.com/photo-1513828583688-c52646db42da?auto=format&fit=crop&w=1200&q=80",
     gallery: [
       "https://images.unsplash.com/photo-1513828583688-c52646db42da?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1513828583688-c52646db42da?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1581092162384-8987c1d64718?auto=format&fit=crop&w=1200&q=80"
     ],
-    specs: { Wire: "1.2 mm - 8.0 mm", Aperture: "25 mm - 200 mm", Finish: "Galvanized / PVC coated", Format: "Rolls or panels" },
-    applications: ["Fencing", "Concrete reinforcement", "Machine guards", "Agricultural enclosures"],
-    certifications: ["Dimension inspection", "Coating test", "ISO 9001"],
-    packaging: "Rolls wrapped with waterproof paper or panels on steel pallets.",
-    loading: "Mixed SKU loading supported with itemized packing lists."
+    specs: { Material: "Nylon monofilament", "Opening Control": "Fine filtration grades", Strength: "High tensile mesh options", Width: "Custom slit and roll widths", Use: "Reusable filtration and screening" },
+    applications: ["Fine filtration", "Screen printing support", "Laboratory and processing filtration", "Custom filter components"],
+    certifications: ["Dimensional inspection", "Material test report", "Export quality file"],
+    packaging: "Core-wound rolls with sleeve protection, outer cartons and buyer marks.",
+    loading: "Lightweight rolls can be consolidated efficiently for air or sea freight."
   },
   {
-    slug: "industrial-raw-materials",
-    name: "Industrial Raw Materials",
-    category: "Industrial Materials",
-    summary: "Consolidated sourcing for industrial buyers requiring repeatable supply, inspection and documentation.",
+    slug: "custom-filter-net-rolls",
+    name: "Custom Filter Net Rolls",
+    category: "Filter Net",
+    summary: "Made-to-order filter net rolls manufactured to buyer size, mesh, color, packing and labeling requirements.",
     image: "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=1200&q=80",
     gallery: [
       "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1581093458791-9d09fdf964d0?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1581093458791-9d09fdf964d0?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1200&q=80"
     ],
-    specs: { Scope: "Metals, polymers, consumables", Sourcing: "Factory-audited supply", Documents: "CO, CI, PL, BL, inspection", Terms: "FOB, CFR, CIF" },
-    applications: ["Manufacturing", "Repair operations", "Distribution", "Project procurement"],
-    certifications: ["Supplier audit", "Inspection report", "Traceability docs"],
-    packaging: "Product-specific export packaging and consolidated shipment planning.",
-    loading: "Optimized mixed-container plans for distributor orders."
-  },
-  {
-    slug: "export-packaging-materials",
-    name: "Export Packaging Materials",
-    category: "Packaging Materials",
-    summary: "B2B packaging materials for exporters, distributors and industrial goods manufacturers.",
-    image: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1200&q=80",
-    gallery: [
-      "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=1200&q=80"
-    ],
-    specs: { Products: "Woven sacks, cartons, stretch film", Printing: "Private label available", Use: "Sea freight and warehouse", MOQ: "Negotiable by item" },
-    applications: ["Export packing", "Warehouse handling", "Retail distribution", "Industrial storage"],
-    certifications: ["Material declaration", "Factory QC", "Load testing optional"],
-    packaging: "Bulk cartons, bales or pallets with buyer marks.",
-    loading: "Lightweight goods can be consolidated with main export shipments."
+    specs: { Material: "HDPE / PP / nylon", Customization: "Mesh, GSM, color, roll size", Labeling: "Buyer label and shipping marks", MOQ: "Quotation-based", Terms: "FOB, CFR, CIF" },
+    applications: ["Private-label import programs", "Distributor stock rolls", "OEM filtration products", "Project-specific filter media"],
+    certifications: ["Pre-production sample approval", "Packing inspection", "Certificate of origin"],
+    packaging: "Buyer-specific roll length, carton count, pallet pattern and shipping marks.",
+    loading: "Container plan prepared after final roll dimensions and packing method are confirmed."
   }
 ];
 
 export const stats = [
   { label: "Export markets served", value: 42, suffix: "+" },
-  { label: "Annual supply capacity", value: 18000, suffix: " MT" },
+  { label: "Annual filter net capacity", value: 18000, suffix: " MT" },
   { label: "Buyer repeat rate", value: 91, suffix: "%" },
-  { label: "Years export experience", value: 14, suffix: "+" }
+  { label: "Years manufacturing experience", value: 14, suffix: "+" }
 ];
 
 export const strengths = [
-  { title: "Factory-Vetted Supply", text: "Audited sourcing, documented specifications and production visibility from enquiry to shipment.", icon: Factory },
+  { title: "Focused Net Manufacturing", text: "Filter net production is the core business, with buyer-specific mesh, roll and packing control.", icon: Factory },
   { title: "Export Documentation", text: "Commercial invoice, packing list, certificate of origin and inspection documents prepared with care.", icon: PackageCheck },
-  { title: "Quality Control", text: "Pre-shipment checks, material testing coordination and photo reports for buyer confidence.", icon: ShieldCheck },
+  { title: "Quality Control", text: "Mesh opening, GSM, roll width, color, packing and labeling checks before shipment.", icon: ShieldCheck },
   { title: "Global Logistics", text: "FOB, CFR and CIF shipment support through reliable freight and forwarding partners.", icon: Globe2 }
 ];
 
 export const industries = [
-  "Commercial fisheries",
-  "Aquaculture",
-  "Construction materials",
-  "Industrial distribution",
-  "Agriculture and fencing",
-  "Packaging and logistics",
-  "Infrastructure procurement",
-  "Retail import channels"
+  "Industrial filtration",
+  "Food and agricultural processing",
+  "Liquid filtration",
+  "Air filtration support",
+  "Sorting and grading lines",
+  "Manufacturing supply chains",
+  "Distributor stock programs",
+  "OEM filter media"
 ];
 
 export const markets = ["UAE", "Saudi Arabia", "Kenya", "Malaysia", "Indonesia", "Italy", "Spain", "United Kingdom", "United States", "South Africa", "Chile", "Australia"];
@@ -144,20 +115,20 @@ export const markets = ["UAE", "Saudi Arabia", "Kenya", "Malaysia", "Indonesia",
 export const certifications = ["ISO 9001 Quality Management", "Third-party Pre-shipment Inspection", "Material Test Certificate", "Certificate of Origin", "Buyer-specific Compliance Files"];
 
 export const testimonials = [
-  { quote: "Their documentation accuracy and shipment communication made our first container feel routine.", name: "Procurement Director", company: "Gulf Industrial Supply" },
-  { quote: "Consistent net quality, clear packing marks and reliable lead times across repeat orders.", name: "Category Manager", company: "Blue Harbor Imports" },
-  { quote: "A strong sourcing partner for mixed industrial loads when specifications and timing matter.", name: "Managing Partner", company: "Atlas Trade Group" }
+  { quote: "Their mesh consistency and shipment communication made repeat purchasing simple for our team.", name: "Procurement Director", company: "Gulf Filtration Supply" },
+  { quote: "A & M Industries understands roll packing, labeling and documentation for import distribution.", name: "Category Manager", company: "Blue Harbor Imports" },
+  { quote: "The sample approval process and pre-shipment photos gave us confidence before container loading.", name: "Managing Partner", company: "Atlas Filter Media" }
 ];
 
 export const posts = [
-  { slug: "how-global-buyers-evaluate-export-suppliers", title: "How Global Buyers Evaluate Export Suppliers", date: "2026-04-18", excerpt: "A practical checklist for importer confidence, documentation and repeatable product quality." },
-  { slug: "fishing-net-specifications-for-importers", title: "Fishing Net Specifications Importers Should Confirm", date: "2026-03-29", excerpt: "Mesh size, denier, UV treatment, bale packing and inspection points for commercial net buyers." },
-  { slug: "building-resilient-industrial-supply-chains", title: "Building Resilient Industrial Supply Chains", date: "2026-02-12", excerpt: "How diversified sourcing and container planning can reduce risk for industrial distributors." }
+  { slug: "how-global-buyers-evaluate-filter-net-suppliers", title: "How Global Buyers Evaluate Filter Net Suppliers", date: "2026-04-18", excerpt: "A practical checklist for mesh consistency, documentation, packing and repeatable filter net quality." },
+  { slug: "filter-net-specifications-for-importers", title: "Filter Net Specifications Importers Should Confirm", date: "2026-03-29", excerpt: "Mesh opening, material, GSM, roll width, treatment and packing details for filter net buyers." },
+  { slug: "building-reliable-filter-net-supply-chains", title: "Building Reliable Filter Net Supply Chains", date: "2026-02-12", excerpt: "How clear specifications, sampling and container planning reduce risk for filter net importers." }
 ];
 
 export const processSteps = [
-  "Buyer enquiry and specification review",
-  "Supplier matching and quotation",
+  "Buyer enquiry and filter net specification review",
+  "Mesh, GSM, roll size and packing quotation",
   "Sample, inspection or document approval",
   "Production tracking and packing confirmation",
   "Container loading, export documentation and shipment follow-up"

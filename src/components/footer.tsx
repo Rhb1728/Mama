@@ -11,7 +11,7 @@ export function Footer() {
             <span className="grid size-12 place-items-center rounded-md bg-white text-sm font-black text-[#101418]">HG</span>
             <div>
               <p className="font-bold tracking-[0.08em] uppercase">{siteConfig.name}</p>
-              <p className="text-sm text-white/62">Export-focused manufacturing and trading partner.</p>
+              <p className="text-sm text-white/62">Focused filter net manufacturing partner.</p>
             </div>
           </div>
           <div className="mt-8 grid gap-3 text-sm text-white/74">

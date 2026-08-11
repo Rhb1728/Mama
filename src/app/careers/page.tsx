@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { PageHero } from "@/components/page-hero";
 import { SimpleGrid } from "@/components/content-blocks";
 
-export const metadata: Metadata = { title: "Careers", description: "Careers at Hassan Global Exports." };
+export const metadata: Metadata = { title: "Careers", description: "Careers at A & M Industries." };
 
 export default function CareersPage() {
   return (

@@ -4,7 +4,7 @@ import { Mail, MapPin, Phone } from "lucide-react";
 import { PageHero } from "@/components/page-hero";
 import { siteConfig } from "@/lib/site";
 
-export const metadata: Metadata = { title: "Contact Us", description: "Contact Hassan Global Exports sales team for product inquiries and export quotations." };
+export const metadata: Metadata = { title: "Contact Us", description: "Contact A & M Industries sales team for product inquiries and export quotations." };
 
 export default function ContactPage() {
   return (

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import { PageHero } from "@/components/page-hero";
 
-export const metadata: Metadata = { title: "Gallery", description: "Factory, product, packing and logistics gallery for Hassan Global Exports." };
+export const metadata: Metadata = { title: "Gallery", description: "Factory, product, packing and logistics gallery for A & M Industries." };
 
 const images = [
   "https://images.unsplash.com/photo-1581093458791-9d09fdf964d0?auto=format&fit=crop&w=1000&q=85",

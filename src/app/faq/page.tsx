@@ -7,7 +7,7 @@ const faqs = [
   ["What is the usual MOQ?", "Most products are quoted by container load, but trial orders may be discussed depending on item and destination."],
   ["Do you support third-party inspection?", "Yes. SGS, Bureau Veritas or buyer-appointed inspections can be coordinated before shipment."],
   ["Which trade terms are available?", "FOB, CFR and CIF are supported. Final terms depend on product, buyer location and shipment plan."],
-  ["Can products be private labeled?", "Packaging marks, buyer labels and custom documentation can be arranged for many product categories."],
+  ["Can filter nets be private labeled?", "Packaging marks, buyer labels and custom documentation can be arranged for filter net roll and carton shipments."],
   ["How fast can I receive a quotation?", "Complete RFQs with specifications and destination details can usually be reviewed quickly by the sales team."]
 ];
 
